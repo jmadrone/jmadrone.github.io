@@ -1,9 +1,9 @@
-title: devlopr
-subtitle: A Portfolio Jekyll Theme Built for Developers
+title: Josh Madrone's IT Blog
+subtitle: IT Guru and Linux Sysadmin
 description: >- # this means to ignore newlines until "baseurl:"
-  devlopr-jekyll is a beautiful Jekyll Theme Built For Developers, which is optimized for speed and readability.
+  Josh Madrone is a network engineer, linux systems administrator, web developer and IT Guru
 
-url: "" # the base hostname & protocol for your site, e.g. https://example.github.io
+url: "https://jmadrone.github.io" # the base hostname & protocol for your site, e.g. https://example.github.io
 baseurl: "" # the subpath of your site, e.g. /blog
 
 # Navigation
@@ -16,82 +16,79 @@ urls:
       url: /blog
     - text: Gallery
       url: /gallery
-    - text: Shop
-      url : /shop
-    - text: Contact
+     - text: Contact
       url : /contact
 
 
 # Edit Author details (For multi authors check _data/authors.yml)
 
 author_logo: profile.png
-author: John Doe
-author_bio: Hi, my name is John Doe. I built this site using devlopr-jekyll :D
-author_email: "mail@sujaykundu.com"
-author_location: India
-author_website_url: "https://sujaykundu.com"
+author: Josh Madrone
+author_bio: Hi, My Name is Josh Madrone. I love to Code and Design. 
+author_email: "josh@madrone.me"
+author_location: California, United States
+author_website_url: "https://joshmadrone.com"
 typewrite-text: devlopr is a jekyll framework built for developers. You can edit this in _config.yml file
 hero_cover_img: sample_cover.jpg # replace this for changing homepage cover (eg. try cover.jpeg). Image should be in /assets/img
 
 # Experiences
 author_work_experiences:
-            - company_name: Google
-              company_logo: google.png
-              company_url: https://google.com
-              designation: Software Engineer
-              description: Worked on various Google Products
+            - company_name: Mattole Salmon Group
+              company_logo: mattolesalmon.png
+              company_url: http://mattolesalmon.org
+              designation: IT Administrator
+              description: Managed file server migration to AWS Cloud, manage IT Security, Desktop Linux/macOS/Windows Sysadmin, maintain WordPress Website and Network Administrator
               visibility: true
-            - company_name: Microsoft
-              company_logo: microsoft.png
-              company_url: https://microsoft.com
-              designation: Azure Developer
-              description: Worked on various Azure Cloud Products
+            - company_name: AllcomOne IT Services LLC
+              company_logo: allcomone.png
+              company_url: https://allcomone.com
+              designation: Network Engineer
+              description: Design and implement complex routed LANs & WANs for Schools, Hotels, Small Government & Nongovernment Organizations and Businesses, Enterprise Wireless design & implementation
               visibility: true
 
 # Education
 author_education_details:
-              - college_logo: mit.png
-                college_name: MIT
-                college_url: https://mit.org
-                college_degree: CS Engineer
-                description: Bachelor of Technology
+              - college_logo: cr.png
+                college_name: College of the Redwoods
+                college_url: https://www.redwoods.edu
+                college_degree: Network Associate
+                description: Certificate
                 visibility: true
 
 # Projects
 author_project_details:
-              - project_thumbnail: gamershub.png
-                project_title: Gamers Hub
-                project_description: A Platform built for Gamers and Game Devs
-                project_url: https://gamershub.in
+              - project_thumbnail: allcomone.png
+                project_title: AllcomOne IT Services LLC
+                project_description: Technology Made Simple!
+                project_url: https://www.allcomone.com
                 visibility: true
-              - project_thumbnail: hack4r.PNG
-                project_title: Hack4r
-                project_description: A Platform built for Hackers and Penetration Testers
-                project_url: https://hack4r.com
+              - project_thumbnail: photogrammetry.png
+                project_title: Photogrammetry - UAV Mapping
+                project_description: Making topo maps and digital elevation models with drones
+                project_url: https://maps.allcomone.com
                 visibility: true
 
 # social links
-twitter_username: johndoe
-github_username:  sujaykundu777
-facebook_username: johndoe
-linkedin_username: johndoe
-behance_username: johndoe
-instagram_username: johndoe
-medium_username: johndoe
-telegram_username: johndoe
-dribbble_username: johndoe
-flickr_username: johndoe
+twitter_username: joshmadrone
+github_username:  jmadrone
+facebook_username: joshmadrone
+linkedin_username: joshmadrone
+
+#medium_username: johndoe
+#telegram_username: johndoe
+#dribbble_username: johndoe
+#flickr_username: johndoe
 
 #for comments ( we got Disqus and Hyvor Commenting, uncomment the one you want to use )
 
-# disqus_shortname: sujay-kundu
-hyvor_talk_website_id: 476
+disqus_shortname: joshemeraldmadrone
+#hyvor_talk_website_id: 476
 
 # wakatime username (coding activity)
-wakatime_username: sujaykundu777
+#wakatime_username: sujaykundu777
 
 # mailchimp embedded form url (newsletter):
-mailchimp_form_url: https://sujaykundu.us10.list-manage.com/subscribe/post?u=50bab1c85eae24ecfb0f68361&amp;id=3a2dd721d0
+#mailchimp_form_url: https://sujaykundu.us10.list-manage.com/subscribe/post?u=50bab1c85eae24ecfb0f68361&amp;id=3a2dd721d0
 
 # contact form - (choose formspress or getform)
 # getform_endpoint: 83b703c3-9e47-4df4-ac55-e24d7eb02abc
