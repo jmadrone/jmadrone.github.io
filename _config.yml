@@ -13,13 +13,17 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Josh Madrone's IT Blog
+title: "Josh Madrone's IT Blog"
 email: josh@madrone.me
 description: >- # this means to ignore newlines until "baseurl:"
   Josh Madrone is a network engineer, cloud architect, linux systems 
   administrator, web developer and IT Guru
 url: "https://josh.madrone.me" # the base hostname & protocol for your site, e.g. https://example.github.io
 baseurl: "" # the subpath of your site, e.g. /blog
+
+masthead_title: "Josh Madrone"
+subtitle: "Network Engineer"
+
 # Social networking site's usernames
 linkedin_username: joshmadrone
 facebook_username: joshmadrone
@@ -67,31 +71,32 @@ author:
   name   : "Josh Madrone"
   avatar : "/assets/images/bio-photo.jpg"
   bio    : "Hi, My Name is Josh Madrone. I love to Code and Design."
+  location: "Trinidad, California, USA"
   links:
-    - label: "Website"
+    - label: "Emerald Security Website"
       icon: "fas fa-fw fa-link"
-      url: "https://"
+      url: "https://emeraldsecurity.net"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
+      url: "https://twitter.com/joshmadrone"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
+      url: "https://github.com/jmadrone"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+      url: "https://instagram.com/joshmadrone"
 
 footer:
   links:
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
+      url: "https://twitter.com/joshmadrone"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
+      url: "https://github.com/jmadrone"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+      url: "https://instagram.com/joshmadrone"
 
 defaults:
   # _posts
