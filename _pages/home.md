@@ -4,13 +4,12 @@ permalink: /
 hidden: true
 header:
   overlay_color: "#5e616c"
-  overlay_image: /assets/images/mm-home-page-feature.jpg
-  actions:
-    - label: "<i class='fas fa-download'></i> Install now"
-      url: "/docs/quick-start-guide/"
+  overlay_image: /assets/images/background-header.jpg
+#  actions:
+#    - label: "<i class='fas fa-download'></i> Install now"
+#      url: "/docs/quick-start-guide/"
 excerpt: >
-  A flexible two-column Jekyll theme. Perfect for building personal sites, blogs, and portfolios.<br />
-  <small><a href="https://github.com/mmistakes/minimal-mistakes/releases/tag/4.25.1">Latest release v4.25.1</a></small>
+  Solving IT problems for over 20 years
 feature_row:
   - image_path: /assets/images/mm-customizable-feature.png
     alt: "customizable"
