@@ -1,3 +1,8 @@
+# Josh Madrone's IT Blog - GitHub Pages Site
+# April 28, 2024
+# jmadrone.github.io
+#
+#
 # Welcome to Jekyll!
 #
 # This config file is meant for settings that affect your whole blog, values
@@ -13,16 +18,25 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: "Josh Madrone's IT Blog"
+
+# Site Settings
+locale: "en-US"
+title: "Josh Madrone's Personal Website"
+title_separator: "-""
+subtitle: "Network Engineer"
+logo: # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
+masthead_title: "Josh Madrone" # overrides the website title displayed in the masthead, use " " for no title
 email: josh@madrone.me
 description: >- # this means to ignore newlines until "baseurl:"
   Josh Madrone is a network engineer, cloud architect, linux systems 
   administrator, web developer and IT Guru
-url: "https://josh.madrone.me" # the base hostname & protocol for your site, e.g. https://example.github.io
+url: "https://jmadrone.github.io"  #the base hostname & protocol for your site, e.g. https://example.github.io
 baseurl: "" # the subpath of your site, e.g. /blog
 
-masthead_title: "Josh Madrone"
-subtitle: "Network Engineer"
+breadcrumbs: true # true, false (default)
+words_per_minute: 200
+copyright: Copyright ©2024 by Josh Madrone. All rights reserved. # "copyright" name, defaults to site.title
+copyright_url: # "copyright" URL, defaults to site.url
 
 # Social networking site's usernames
 linkedin_username: joshmadrone
@@ -30,7 +44,10 @@ facebook_username: joshmadrone
 twitter_username: joshmadrone
 github_username: jmadrone
 reddit_username: jmadrone
-minimal_mistakes_skin: neon # "default", "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+
+# Site Theme Skin
+# "default", "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin: air
 
 search: true
 
@@ -41,10 +58,13 @@ remote_theme: mmistakes/minimal-mistakes
 permalink: /:categories/:title/
 paginate: 5 # amount of posts to show
 paginate_path: /page:num/
-timezone: US/Pacific # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: "US/Pacific" # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
+# Include these directories so Jekyll sees them and processes them appropriately
 include:
   - _pages
+  - _posts
+
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
@@ -67,27 +87,39 @@ plugins:
   - jemoji
   - jekyll-include-cache
 
+# Site Author (left sidebar)
 author:
   name   : "Josh Madrone"
   avatar : "/assets/images/bio-photo.jpg"
-  bio    : "Hi, My Name is Josh Madrone. I love to Code and Design."
-  location: "Trinidad, California, USA"
+  bio    : "I love to code and solve problems."
+  location: "Trinidad, California"
+  email: "josh@madrone.me"
   links:
-    - label: "Emerald Security Website"
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:josh@madrone.me"
+    - label: "Website"
       icon: "fas fa-fw fa-link"
-      url: "https://emeraldsecurity.net"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/joshmadrone"
+      url: "https://josh.madrone.me"
+    - label: "Facebook"
+      icon: "fab fa-fw fa-facebook-square"
+      url: "https://facebook.com/joshmadrone"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/jmadrone"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       url: "https://instagram.com/joshmadrone"
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/joshmadrone"
 
+# Site Footer
 footer:
   links:
+    - label: "Facebook"
+      icon: "fab fa-fw fa-facebook-square"
+      url: "https://facebook.com/joshmadrone"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       url: "https://twitter.com/joshmadrone"
@@ -98,16 +130,18 @@ footer:
       icon: "fab fa-fw fa-instagram"
       url: "https://instagram.com/joshmadrone"
 
+
+# Defaults
 defaults:
   # _posts
   - scope:
-      path: ""
+      path: "_posts"
       type: posts
     values:
       layout: single
       author_profile: true
       read_time: true
-      comments: true
+      comments: false
       share: true
       related: true
   # _pages
@@ -118,6 +152,53 @@ defaults:
       layout: single
       author_profile: true
 
+
+encoding: "utf-8"
+markdown_ext: "markdown,mkdown,mkdn,mkd,md"
+
+
+# Conversion
+markdown: kramdown
+highlighter: rouge
+lsi: false
+excerpt_separator: "\n\n"
+incremental: false
+
+
+# Markdown Processing
+kramdown:
+  input: GFM
+  hard_wrap: false
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  smart_quotes: lsquo,rsquo,ldquo,rdquo
+  enable_coderay: false
+
+
+# Sass/SCSS
+sass:
+  sass_dir: _sass
+  style: compressed # https://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
+
+
+# Outputting
+permalink: /:categories/:title/
+paginate: 5 # amount of posts to show
+paginate_path: /page:num/
+timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+
+
+# Archives Configuration
+#  Type
+#  - GitHub Pages compatible archive pages built with Liquid ~> type: liquid (default)
+#  Path (examples)
+#  - Archive page should exist at path when using Liquid method or you can
+#    expect broken links (especially with breadcrumbs enabled)
+#  - <base_path>/tags/my-awesome-tag/index.html ~> path: /tags/
+#  - <base_path>/categories/my-awesome-category/index.html ~> path: /categories/
+#  - <base_path>/my-awesome-category/index.html ~> path: /
 category_archive:
   type: liquid
   path: /categories/
