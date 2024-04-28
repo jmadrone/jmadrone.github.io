@@ -20,9 +20,8 @@
 # in the templates via {{ site.myvariable }}.
 
 # Site Settings
-locale: "en-US"
 title: "Josh Madrone's Personal Website"
-title_separator: "-""
+title_separator: "-"
 subtitle: "Network Engineer"
 logo: # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title: "Josh Madrone" # overrides the website title displayed in the masthead, use " " for no title
@@ -59,6 +58,7 @@ permalink: /:categories/:title/
 paginate: 5 # amount of posts to show
 paginate_path: /page:num/
 timezone: "US/Pacific" # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+locale: "en-US"
 
 # Include these directories so Jekyll sees them and processes them appropriately
 include:
