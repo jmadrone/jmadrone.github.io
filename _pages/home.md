@@ -9,27 +9,27 @@ header:
 #    - label: "<i class='fas fa-download'></i> Install now"
 #      url: "/docs/quick-start-guide/"
 excerpt: >
-  Solving IT problems for over 20 years
+  Innovating and solving problems in IT for over 20 years
 feature_row:
-  - image_path: /assets/images/mm-customizable-feature.png
-    alt: "customizable"
-    title: "Super customizable"
+  - image_path: /assets/images/feature-cv.png
+    alt: "resume"
+    title: "My Resume"
     excerpt: "Everything from the menus, sidebars, comments, and more can be configured or set with YAML Front Matter."
-    url: "/docs/configuration/"
+    url: "/cv/"
     btn_class: "btn--primary"
     btn_label: "Learn more"
-  - image_path: /assets/images/mm-responsive-feature.png
-    alt: "fully responsive"
-    title: "Responsive layouts"
-    excerpt: "Built with HTML5 + CSS3. All layouts are fully responsive with helpers to augment your content."
-    url: "/docs/layouts/"
+  - image_path: /assets/images/josh-crater-lake-square-300px.jpg
+    alt: "Josh at Crater Lake, OR"
+    title: "About Me"
+    excerpt: "I have been designing, implementing, and managing complex routed networks for over 15 years..."
+    url: "/about/"
     btn_class: "btn--primary"
     btn_label: "Learn more"
-  - image_path: /assets/images/mm-free-feature.png
-    alt: "100% free"
-    title: "100% free"
-    excerpt: "Free to use however you want under the MIT License. Clone it, fork it, customize it... whatever!"
-    url: "/docs/license/"
+  - image_path: /assets/images/my-work.png
+    alt: "my work image"
+    title: "Some of My Work"
+    excerpt: "A collection of some of the work that I've done in my career."
+    url: "/_portfolio/"
     btn_class: "btn--primary"
     btn_label: "Learn more"      
 ---
