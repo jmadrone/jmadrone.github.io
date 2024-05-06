@@ -29,7 +29,7 @@ feature_row:
     alt: "my work image"
     title: "Some of My Work"
     excerpt: "A collection of some of the work that I've done in my career."
-    url: "/_portfolio/"
+    url: "/portfolio/"
     btn_class: "btn--primary"
     btn_label: "Learn more"      
 ---

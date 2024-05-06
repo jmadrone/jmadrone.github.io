@@ -92,9 +92,6 @@ author:
   location: "Trinidad, California"
   email: "josh@madrone.me"
   links:
-    - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:josh@madrone.me"
     - label: "Website"
       icon: "fas fa-fw fa-link"
       url: "https://josh.madrone.me"
@@ -104,12 +101,7 @@ author:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/jmadrone"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/joshmadrone"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/joshmadrone"
+
 
 # Site Footer
 footer:
@@ -117,15 +109,12 @@ footer:
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
       url: "https://facebook.com/joshmadrone"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/joshmadrone"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/jmadrone"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/joshmadrone"
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:josh@madrone.me"
 
 
 # Defaults
