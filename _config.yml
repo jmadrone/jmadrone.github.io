@@ -204,7 +204,7 @@ defaults:
       comments            : false
   # _pets
   - scope:
-      path                : ""
+      path                : "_pets"
       type                : pets
     values:
       layout              : single
