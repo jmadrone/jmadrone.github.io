@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/jmadrone
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://josh.madrone.me
+  * I am jmadrone (https://keybase.io/jmadrone) on keybase.
+  * I have a public key ASAlBEWaK6o5CTR2N2Tz1QSHD8zn1d4tWfgwKhecsHSt8Ao
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120727728b8e6c6985d15847a66044e698f4d30e7005a605ad8e84317fcfee03d160a",
+      "host": "keybase.io",
+      "kid": "01202504459a2baa390934763764f3d504870fcce7d5de2d59f8302a179cb074adf00a",
+      "uid": "a5b9066f82828ef2d6f686927eecbd19",
+      "username": "jmadrone"
+    },
+    "merkle_root": {
+      "ctime": 1714956518,
+      "hash": "e2813d86ee579d3cd6d71a0af9e1ea306c3a31df0049a930699dc2f2111eabcb5c59c7f0f9fe32f4efb59a2ff6155f7a886e228ae553057018515ffbaaff873d",
+      "hash_meta": "df63f2c609711006dbeadcf8f2424d8b776799f7e53e0fe1e3e7cde6400c7202",
+      "seqno": 25700843
+    },
+    "service": {
+      "entropy": "8OqbYHEg7q+MulpOJu2frPEz",
+      "hostname": "josh.madrone.me",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "6.2.8"
+  },
+  "ctime": 1714956576,
+  "expire_in": 504576000,
+  "prev": "9cf360ecfca9719b1b4c862346eaf3c4a28a11fdae715e04cb899c53008b69c1",
+  "seqno": 21,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgJQRFmiuqOQk0djdk89UEhw/M59XeLVn4MCoXnLB0rfAKp3BheWxvYWTESpcCFcQgnPNg7PypcZsbTIYjRurzxKKKEf2ucV4Ey4mcUwCLacHEIBDD8psO0Ip6q/z/ZQfv8WbCoCFmkkzD3LqK8Cjy6X/eAgHCo3NpZ8RA8UbeVnnrmHELbxx6+2EDFI8r9fW/eh29PW6J8eJ6eetj09Y27fUOiN5gUHt7QPilY+eXQH1xiRvS8S1oViovAahzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIAgj3Tjn9L5+3rXJsIvFF1X4XEAnePENdX3cZ9eEtrsco3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/jmadrone
+
+==================================================================
