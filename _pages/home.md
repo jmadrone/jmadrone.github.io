@@ -11,7 +11,7 @@ header:
 excerpt: >
   Innovating and solving problems in IT for over 20 years
 feature_row:
-  - image_path: /assets/images/feature-cv.png
+  - image_path: /assets/images/resume.png
     alt: "resume"
     title: "My Resume"
     excerpt: "Everything from the menus, sidebars, comments, and more can be configured or set with YAML Front Matter."
