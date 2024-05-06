@@ -38,7 +38,7 @@ baseurl                   : "" # the subpath of your site, e.g. /blog
 breadcrumbs               : true # true, false (default)
 words_per_minute          : 200
 enable_copy_code_button   : true
-copyright                 : by Josh Madrone. All rights reserved. # "copyright" name, defaults to site.title
+copyright                 : by *name. All rights reserved. # "copyright" name, defaults to site.title
 copyright_url             : # "copyright" URL, defaults to site.url
 #reCaptcha:
 #  siteKey                : # "6LdRBykTAAAAAFB46MnIu6ixuxwu9W1ihFF8G60Q"
@@ -231,7 +231,7 @@ collections:
 
 # Reading Files
 # Include these directories so Jekyll sees them and processes them appropriately
-include                   : ["_pages", "_posts", "_portfolio", ".well-known"]
+include                   : ["_pages", "_posts", "_portfolio", ".well-known", "_pets", "_recipes", "_docs"]
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
