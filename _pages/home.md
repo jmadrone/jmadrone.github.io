@@ -11,7 +11,7 @@ header:
       url: "/cv/"
 excerpt: >
   Innovating and solving problems in IT for over 20 years
-#intro: 
+intro: 
 #  - excerpt: 'From a young age, while my peers were shooting hoops, I was immersed in the world of technology, coding away. Computers have always been my passion, driving me to develop strong analytical skills and a deep understanding of network protocols and technologies. My ability to swiftly acquire new skills on the fly empowers me to troubleshoot, isolate, and resolve issues with efficiency and precision.'
 feature_row:
   - image_path: /assets/images/resume.png
@@ -61,12 +61,12 @@ feature_row4:
     btn_class: "btn--primary"
 ---
 
-# {% include feature_row id="intro" type="center" %}
+{% include feature_row id="intro" type="center" %}
 
 {% include feature_row %}
 
-# {% include feature_row id="feature_row2" type="left" %}
+{% include feature_row id="feature_row2" type="left" %}
 
-# {% include feature_row id="feature_row3" type="right" %}
+{% include feature_row id="feature_row3" type="right" %}
 
-# {% include feature_row id="feature_row4" type="center" %}
+{% include feature_row id="feature_row4" type="center" %}
