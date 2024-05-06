@@ -12,7 +12,7 @@ header:
 excerpt: >
   Innovating and solving problems in IT for over 20 years
 intro: 
-#  - excerpt: 'From a young age, while my peers were shooting hoops, I was immersed in the world of technology, coding away. Computers have always been my passion, driving me to develop strong analytical skills and a deep understanding of network protocols and technologies. My ability to swiftly acquire new skills on the fly empowers me to troubleshoot, isolate, and resolve issues with efficiency and precision.'
+  - excerpt: 'From a young age, while my peers were shooting hoops, I was immersed in the world of technology, coding away. Computers have always been my passion, driving me to develop strong analytical skills and a deep understanding of network protocols and technologies. My ability to swiftly acquire new skills on the fly empowers me to troubleshoot, isolate, and resolve issues with efficiency and precision.'
 feature_row:
   - image_path: /assets/images/resume.png
     alt: "resume"
@@ -32,7 +32,7 @@ feature_row:
     alt: "my work image"
     title: "Some of My Work"
     excerpt: "A collection of some of the work that I've done in my career."
-    url: "/portfolio-archive/"
+    url: "/portfolio/"
     btn_class: "btn--primary"
     btn_label: "View more"  
 feature_row2:
