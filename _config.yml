@@ -61,12 +61,7 @@ timezone: "US/Pacific" # https://en.wikipedia.org/wiki/List_of_tz_database_time_
 locale: "en-US"
 
 # Include these directories so Jekyll sees them and processes them appropriately
-include:
-  - _pages
-  - _posts
-  - _portfolio
-  - [".well-known"]
-
+include: ["_pages", "_posts", "_portfolio", ".well-known"]
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
@@ -153,6 +148,17 @@ defaults:
     values:
       layout: single
       author_profile: true
+  #_portfolio
+  - scope:
+      path: "_portfolio"
+      type: portfolio
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: false
+      share: true
+      related: true
 
 
 encoding: "utf-8"
@@ -160,7 +166,6 @@ markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 
 
 # Conversion
-markdown: kramdown
 highlighter: rouge
 lsi: false
 excerpt_separator: "\n\n"
@@ -183,14 +188,6 @@ kramdown:
 sass:
   sass_dir: _sass
   style: compressed # https://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
-
-
-# Outputting
-permalink: /:categories/:title/
-paginate: 5 # amount of posts to show
-paginate_path: /page:num/
-timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-
 
 # Archives Configuration
 #  Type
