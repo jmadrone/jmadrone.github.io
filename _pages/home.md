@@ -14,7 +14,7 @@ feature_row:
   - image_path: /assets/images/resume.png
     alt: "resume"
     title: "My Resume"
-    excerpt: "Everything from the menus, sidebars, comments, and more can be configured or set with YAML Front Matter."
+    excerpt: "View my resume and download a PDV version."
     url: "/cv/"
     btn_class: "btn--primary"
     btn_label: "Learn more"
