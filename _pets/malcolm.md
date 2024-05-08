@@ -11,7 +11,7 @@ gallery:
   - url: /assets/images/malcolm/malcolm3.jpg
     image_path: assets/images/malcolm/malcolm3.jpg
     alt: "Malcolm is growing fast"
-gallery2:
+gallery:
   - url: /assets/images/malcolm/malcolm4.jpg
     image_path: /assets/images/malcolm/malcolm4.jpg
     alt: "Full grown at 109 pounds"
@@ -33,4 +33,4 @@ Malcolm is registered with the [Alapaha Blue-Blood Bulldog Association](https://
 
 Alapaha Bulldog's are a wonderful breed, with protective instincts yet not aggressive by nature, they are wonderful protection dogs. They do best when treated as a member of the family, they care about and protect children, and you'll be hard pressed to ever find a better companion animal.
 
-{% include gallery2 caption="Another gallery of photos of Malcolm" %}
+{% include gallery caption="Another gallery of photos of Malcolm" %}
