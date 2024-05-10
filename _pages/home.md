@@ -37,27 +37,27 @@ feature_row:
     btn_class: "btn--primary"
     btn_label: "View more"  
 feature_row2:
-  - image_path: /assets/images/unsplash-gallery-image-2-th.jpg
-    alt: "placeholder image 2"
-    title: "Placeholder Image Left Aligned"
-    excerpt: 'This is some sample content that goes here with **Markdown** formatting. Left aligned with `type="left"`'
-    url: "#test-link"
+  - image_path: /assets/images/citation-hero.jpg
+    alt: "Learn more about the Citation Manage platform"
+    title: "Learn more about the Citation Manage platform"
+    excerpt: 'In this dynamic position, I am responsible for designing, implementing, and maintaining the robust infrastructure that supports our clients' compliance initiatives.'
+    url: "/portfolio/citation-compliance/"
     btn_label: "Read More"
     btn_class: "btn--primary"
 feature_row3:
-  - image_path: /assets/images/unsplash-gallery-image-2-th.jpg
-    alt: "placeholder image 2"
-    title: "Placeholder Image Right Aligned"
-    excerpt: 'This is some sample content that goes here with **Markdown** formatting. Right aligned with `type="right"`'
-    url: "#test-link"
+  - image_path: /assets/images/mattole-hero.jpg
+    alt: "Mattole Salmon Group logo"
+    title: "Mattole Salmon Group logo"
+    excerpt: 'As the IT Administrator at the Mattole Salmon Group, a revered non-profit organization based in Petrolia, CA, I play a pivotal role in ensuring the seamless operation and optimization of our technological infrastructure. In this dynamic position, I spearheaded a transformative project that underscores our commitment to innovation and efficiency: the migration from an on-premises file server to an all-cloud solution, leveraging the power of Amazon Web Services (AWS) and Microsoft Azure.'
+    url: "/portfolio/mattole-salmon-group/"
     btn_label: "Read More"
     btn_class: "btn--primary"
 feature_row4:
-  - image_path: /assets/images/unsplash-gallery-image-2-th.jpg
-    alt: "placeholder image 2"
+  - image_path: /assets/images/emerald-security-herog
+    alt: Emerald Security"
     title: "Jump to my IT blog"
     excerpt: 'Explore the latest insights, trends, and expert advice in the ever-evolving world of IT on my informative and engaging blog.'
-    url: "#test-link"
+    url: "/portfolio/emerald-security/"
     btn_label: "Read More"
     btn_class: "btn--primary"
 ---
