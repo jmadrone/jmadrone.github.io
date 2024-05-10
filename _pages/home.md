@@ -12,8 +12,8 @@ header:
 excerpt: >
   Innovating and solving problems in IT for over 20 years
 intro: 
-  - excerpt: 'From a young age, while my peers were shooting hoops, I was immersed in the world of technology, coding away. Computers have always been my passion, driving me to develop strong analytical skills and a deep understanding of network protocols and technologies. My ability to swiftly acquire new skills on the fly empowers me to troubleshoot, isolate, and resolve issues with efficiency and precision.'
-    <cite>-Josh Madrone</cite>
+  - excerpt: 'From a young age, while my peers were shooting hoops, I was immersed in the world of technology, coding away. Computers have always been my passion, driving me to develop strong analytical skills and a deep understanding of network protocols and technologies. My ability to swiftly acquire new skills on the fly empowers me to troubleshoot, isolate, and resolve issues with efficiency and precision.<br/>
+  <cite>-Josh Madrone</cite>'
 feature_row:
   - image_path: /assets/images/resume.png
     alt: "resume"
