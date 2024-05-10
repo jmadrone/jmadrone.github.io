@@ -8,9 +8,29 @@ gallery:
   - url: /assets/images/jade-orange.jpg
     image_path: assets/images/jade-orange.jpg
     alt: "Jade goofing off in Orange County"
-  -url: /assets/images/josh-jade-orange.jpg
-   image_path: assets/images/josh-jade-orange.jpg
-   alt: "Josh and Jade at a restaurant in Orange County"
+  - url: /assets/images/josh-jade-orange.jpg
+    image_path: assets/images/josh-jade-orange.jpg
+    alt: "Josh and Jade at a restaurant in Orange County"
+gallery_mom:
+  - url: /assets/images/oceana-madrone.jpg
+    image_path: /assets/images/oceana-madrone.jpg
+    alt: "Oceana Madrone"
+  - url: /assets/images/mom-dad.jpg
+    image_path: /assets/images/mom-dad.jpg
+    alt: "Mom and Dad at the beach"
+  - url: /assets/images/x.jpg
+    image_path: /assets/images/x.jpg
+    alt: "xxx"
+gallery_dad:
+  - url: /assets/images/jade-josh.jpg
+    image_path: assets/images/jade-josh.jpg
+    alt: "Josh and Jade in LA"
+  - url: /assets/images/jade-orange.jpg
+    image_path: assets/images/jade-orange.jpg
+    alt: "Jade goofing off in Orange County"
+  - url: /assets/images/josh-jade-orange.jpg
+    image_path: assets/images/josh-jade-orange.jpg
+    alt: "Josh and Jade at a restaurant in Orange County"
 ---
 
 With over 15 years of hands-on experience, I specialize in designing, implementing, and managing intricate routed networks. As a seasoned administrator proficient in Linux, macOS, and Microsoft Windows environments, including Active Directory, I bring a wealth of expertise to the table. Additionally, I possess 5 years of cloud computing experience, architecting solutions using AWS and Microsoft Azure. My portfolio extends to Enterprise Wireless Networking, where I've successfully designed and implemented tailored solutions for a diverse range of clients, from large corporate campuses to educational institutions, cannabis farms, governmental bodies, and beyond. I take pride in my track record of deploying guest internet hotspots, IP video surveillance systems, and innovative solar-powered solutions for remote off-grid relay sites.

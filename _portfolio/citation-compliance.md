@@ -2,27 +2,24 @@
 title: "Citation Compliance Inc."
 excerpt: "Director of Infrastructure - Migrated Azure environment to a new tenant, creating a cloned Azure environment using ARM Deployment Scripts."
 header:
-  image: /assets/images/citation-header.jpg
-  teaser: assets/images/unsplash-gallery-image-1-th.jpg
+  image: /assets/images/citation-hero.jpg
+#  teaser: assets/images/unsplash-gallery-image-1-th.jpg
 sidebar:
-
-- title: "Director of Infrastructure"
+  - title: "Director of Infrastructure"
     image: /assets/images/citation-compliance-logo.png
     image_alt: "logo"
     text: "Cloud Infrastructure Architect and Engineer"
-- title: "Responsibilities"
-    text: "Led the successful migration of a Microsoft Azure tenant to a new envronment, leveraging Azure Resource Manager Deployment Scripts to replicate the existing infrastructure while tailoring it to the project requirements.
-    
-    Key to my strategy was strategically integrating Infrastructure as a Service (IaaS) techniques. By abstracting infrastructure components into reusable templates, I streamlined resource provisioning and configuration management, enabling swift adaptation to evolving needs and confident scalability."
+  - title: "Responsibilities"
+    text: "Led the successful migration of a Microsoft Azure tenant to a new envronment, leveraging Azure Resource Manager Deployment Scripts to replicate the existing infrastructure while tailoring it to the project requirements.<br/>Key to my strategy was strategically integrating Infrastructure as a Service (IaaS) techniques. By abstracting infrastructure components into reusable templates, I streamlined resource provisioning and configuration management, enabling swift adaptation to evolving needs and confident scalability."
 gallery:
 - url: /assets/images/unsplash-gallery-image-1.jpg
-    image_path: assets/images/unsplash-gallery-image-1-th.jpg
+    image_path: /assets/images/unsplash-gallery-image-1-th.jpg
     alt: "placeholder image 1"
 - url: /assets/images/unsplash-gallery-image-2.jpg
-    image_path: assets/images/unsplash-gallery-image-2-th.jpg
+    image_path: /assets/images/unsplash-gallery-image-2-th.jpg
     alt: "placeholder image 2"
 - url: /assets/images/unsplash-gallery-image-3.jpg
-    image_path: assets/images/unsplash-gallery-image-3-th.jpg
+    image_path: /assets/images/unsplash-gallery-image-3-th.jpg
     alt: "placeholder image 3"
 ---
 

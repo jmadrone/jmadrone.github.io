@@ -35,7 +35,7 @@ repository                : "jmadrone/jmadrone.github.io"
 url                       : "https://jmadrone.github.io"  #the base hostname & protocol for your site, e.g. https://example.github.io
 baseurl                   : "" # the subpath of your site, e.g. /blog
 
-breadcrumbs               : true # true, false (default)
+breadcrumbs               : false # true, false (default)
 words_per_minute          : 200
 enable_copy_code_button   : true
 copyright                 : by *name. All rights reserved. # "copyright" name, defaults to site.title
@@ -45,7 +45,7 @@ copyright_url             : # "copyright" URL, defaults to site.url
 #  secret                 : # "PznnZGu3P6eTHRPLORniSq+J61YEf+A9zmColXDM5icqF49gbunH51B8+h+i2IvewpuxtA9TFoK68TuhUp/X3YKmmqhXasegHYabY50fqF9nJh9npWNhvITdkQHeaOqnFXUIwxfiEeUt49Yoa2waRR7a5LdRAP3SVM8hz0KIBT4="
 
 # SEO Related
-google_site_verification : "UQj93ERU9zgECodaaXgVpkjrFn9UrDMEzVamacSoQ8Y" # Replace this with your ID, or delete
+google_site_verification : "" # Replace this with your ID, or delete
 bing_site_verification   :
 
 
@@ -57,21 +57,21 @@ github_username           : &github "jmadrone"
 reddit_username           : &reddit "jmadrone"
 
 # Social Sharing
-twitter:
-  username               : *twitter
-facebook:
-  username               : *facebook
-  app_id                 :
-  publisher              :
-og_image                 : "/assets/images/site-logo.png" # Open Graph/Twitter default site image
+#twitter:
+#  username               : *twitter
+#facebook:
+#  username               : *facebook
+#  app_id                 :
+#  publisher              :
+#og_image                 : "/assets/images/site-logo.png" # Open Graph/Twitter default site image
 # For specifying social profiles, used in _includes/seo.html
 # - https://developers.google.com/structured-data/customize/social-profiles
-social:
-  type                   : # Person or Organization (defaults to Person)
-  name                   : # If the user or organization name differs from the site's name
-  links: # An array of links to social media profiles
-    - "https://twitter.com/joshmadrone"
-    - "https://www.facebook.com/joshmadrone"
+#social:
+#  type                   : # Person or Organization (defaults to Person)
+#  name                   : # If the user or organization name differs from the site's name
+#  links: # An array of links to social media profiles
+#    - "https://twitter.com/joshmadrone"
+#    - "https://www.facebook.com/joshmadrone"
 
 
 
@@ -96,7 +96,7 @@ analytics:
 # Build settings
 markdown                  : kramdown
 # Site Theme & Skin
-remote_theme              : mmistakes/minimal-mistakes
+remote_theme              : mmistakes/minimal-mistakes@4.26.1
 # "default", "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 minimal_mistakes_skin     : dark
 # Outputting
@@ -117,7 +117,7 @@ plugins:
 
 # Site Author
 author:
-  name                    : *name # *name is a YAML reference pointing to the &anchor earlier
+  name                    : *name  #*name is a YAML reference pointing to the &anchor earlier
   avatar                  : "/assets/images/bio-photo.jpg"
   bio                     : "I love to code and solve problems."
   location                : "Trinidad, California"
@@ -164,7 +164,7 @@ defaults:
       toc                 : true
   # _pages
   - scope:
-      path                : "_pages"
+      path                : ""
       type                : pages
     values:
       layout              : single
@@ -178,7 +178,7 @@ defaults:
       author_profile      : false
       read_time           : true
       comments            : false
-      share               : true
+      share               : false
       related             : true
   # _docs
   - scope:
@@ -209,8 +209,8 @@ defaults:
     values:
       layout              : single
       author_profile      : true
-      share               : true
-      comment             : false
+      share               : false
+      comments            : false
 
 
 # Collections
@@ -231,7 +231,14 @@ collections:
 
 # Reading Files
 # Include these directories so Jekyll sees them and processes them appropriately
-include                   : ["_pages", "_posts", "_portfolio", ".well-known", "_pets", "_recipes", "_docs"]
+include: 
+   - _pages
+   - _posts
+   - _portfolio
+   - .well-known
+   - _pets
+   - _recipes
+   - _docs
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
