@@ -1,3 +1,4 @@
+---
 title: "Citation Compliance Inc."
 excerpt: "Director of Infrastructure - Migrated Azure environment to a new tenant, creating a cloned Azure environment using ARM Deployment Scripts."
 header:
@@ -23,7 +24,6 @@ gallery:
 - url: /assets/images/unsplash-gallery-image-3.jpg
     image_path: assets/images/unsplash-gallery-image-3-th.jpg
     alt: "placeholder image 3"
-
 ---
 
 ## About Citation Compliance Inc
@@ -31,3 +31,5 @@ gallery:
 Citation Compliance™ is at the forefront of providing innovative compliance management software and change management solutions, helping organizations meet their compliance obligations while maximizing productivity. With over 25 years of domain expertise, we offer a suite of services including legal applicability, risk assessment, and compliance management to ensure that businesses meet their obligations and, if desired, achieve ISO 14001 or ISO 45001 certification.
 
 To accomplish this, Citation Compliance™ offers a comprehensive and secure cloud-based software compliance solution called Citation Manage™. This software integrates natural language processing, machine learning, and expert human curation to transform complex regulatory requirements into structured and analysis-ready datasets. This allows businesses to easily move from regulations to a customized Legal Applicability Register and Compliance Matrix, streamlining the compliance process and enabling them to focus on essential tasks specific to their operations. In addition to building a bridge to a state of compliance, Citation Manage™ also incorporates periodic updates to keep businesses up-to-date with the latest regulatory requirements. By consistently integrating the most current and applicable regulations into their operations and best management practices, businesses can remain compliant with all relevant regulations and minimize risks and exposures associated with non-compliance. With Citation Manage™, businesses can focus on their core operations, knowing that their compliance responsibilities are being fulfilled, thereby reducing potential risk, saving time, ensuring consistency, and enhancing productivity. Our platform has gained a loyal following of EHS, HSE, HSSE, QHSE, and safety professionals from various industries, top consulting firms, and government agencies in over 77 countries. The trust placed in Citation Manage™ is a testament to its reliability as a compliance management platform.
+
+{% include gallery  %}
