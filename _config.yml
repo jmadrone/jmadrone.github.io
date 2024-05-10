@@ -239,6 +239,7 @@ include:
    - _pets
    - _recipes
    - _docs
+   - bootstrap-resume
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
