@@ -41,6 +41,6 @@ The MSG was one of the first-citizen led watershed restoration organizations on 
 
 The mission of the Mattole Salmon Group is to work to restore salmon populations to self-sustaining levels in the Mattole watershed.
 
-![Photo of our 2019 annual retreat](/assets/images/msg-annual-retreat.jpg)
+![Photo of our 2019 annual retreat](/assets/images/msg-retreat.jpg)
 
 <small>2019 Annual Retreat Photo of MSG Board and Staff | From left to right: Gail Lee Wread, David Simpson, Richard Sykes, Chad Paul, Gary (Fish) Peterson, Campbell Thompson, Michael Evenson, Sungnome Madrone, Lindsay Merryman, Nathan Queener, Ray Lingel, Josh Madrone, Rob Yoshi, Michelle Dow, Kate Cenci, David Buxbaum</small>
