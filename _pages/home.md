@@ -36,7 +36,7 @@ feature_row       :
 feature_row2      :
   - image_path    : /assets/images/citation-compliance-logo-small.png
     alt           : "Learn more about the Citation Manage platform"
-    title         : "Director of Infrastructure<br />Citation Compliance Inc."
+    title         : "Director of Infrastructure<br /> - Citation Compliance Inc."
     excerpt       : "In this dynamic position, I am responsible for designing, implementing, and maintaining the robust infrastructure that supports our clients' compliance initiatives."
     url           : "/portfolio/citation-compliance/"
     btn_label     : "Read More"
@@ -44,7 +44,7 @@ feature_row2      :
 feature_row3      :
   - image_path    : /assets/images/msg-logo.png
     alt           : "Mattole Salmon Group logo"
-    title         : "IT Administrator & Project Coordinator<br />Mattole Salmon Group"
+    title         : "IT Administrator & Project Coordinator<br /> - Mattole Salmon Group"
     excerpt       : >
       As the IT Administrator at the Mattole Salmon Group, a revered non-profit organization based in Petrolia, CA, I play a pivotal role in ensuring the seamless operation and optimization of our technological infrastructure. In this dynamic position, I spearheaded a transformative project that underscores our commitment to innovation and efficiency, the migration from an on-premises an all-cloud solution, leveraging the power of Amazon Web Services (AWS) and Microsoft Azure.
 #      <small><a href="https://github.com/mmistakes/minimal-mistakes/releases/tag/4.26.1">Latest release v4.26.1</a></small>
@@ -54,7 +54,7 @@ feature_row3      :
 feature_row4      :
   - image_path    : /assets/images/emsec-logo-mixed-mode.png
     alt           : "Emerald Security logo"
-    title         : "Network Engineer & President<br/>Emerald Security LLC"
+    title         : "Network Engineer & President<br/> - Emerald Security LLC"
     excerpt       : >
       As the Network Engineer and Founder of Emerald Security, a leading Managed Services Provider (MSP) nestled in the picturesque town of Trinidad, California, my role integrates technical expertise, strategic vision, and entrepreneurial spirit. Charged with delivering state-of-the-art IT solutions and safeguarding the digital assets of our clients, I am at the forefront of innovation and excellence in the  rapidly evolving field of cybersecurity and network infrastructure.
     url           : "/portfolio/emerald-security/"
