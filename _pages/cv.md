@@ -3,7 +3,7 @@ permalink: /cv/
 title: "Josh Madrone's CV"
 ---
 
-I am currently working three (3) jobs, two of which are part-time, and the other is running my own business, Emerald Security LLC, a Managed Services Provider, specializing
+I am currently working three (3) jobs, two of which are part-time, and the other is running my own business, Emerald Security LLC, a Managed Services Provider (MSP), specializing in wired and wireless networking, SD-WAN technologies, enterprise wireless, and IP video surveillance systems.
 
 ## Director of Infrastructure at Citation Compliance Inc
 

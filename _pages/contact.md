@@ -3,4 +3,9 @@ permalink: /contact/
 title: "Contact"
 ---
 
-Tempor velit sint sunt ipsum tempor enim ad qui ullamco. Est dolore anim ad velit duis dolore minim sunt aliquip amet commodo labore. Ut eu pariatur aute ea aute excepteur laborum. Esse ea esse excepteur minim mollit qui cillum excepteur ex dolore magna. Labore deserunt fugiat incididunt incididunt sint ea. Consequat dolore aute laboris quis proident quis non et est consectetur ex eiusmod sit culpa.
+If you would like to get in contact with me, I am on the following social media platforms:
+
+- LinkedIn: [joshmadrone](https://linkedin.com/in/joshmadrone)
+- Facebook: [joshmadrone](https://facebook.com/joshmadrone)
+
+Or, you can email me directly at [josh@madrone.me](mailto:josh@madrone.me).

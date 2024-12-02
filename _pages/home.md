@@ -6,19 +6,19 @@ header            :
   overlay_color   : "#5e616c"
   overlay_image   : /assets/images/background-header.jpg
   actions         :
-    - label       : "<i class='fas fa-download'></i> Download my CV now"
-      url         : "/cv/"
+    - label       : "<i class='fas fa-download'></i> Download my Résumé now"
+      url         : "https://joshmadrone.com/bootstrap-resume/josh-madrone-resume.html"
 excerpt           : "Innovating and solving problems in IT for over 20 years"
 intro             : 
   - excerpt       : "From a young age, while my peers were shooting hoops, I was immersed in the world of technology, coding away. Computers have always been my passion, driving me to develop strong analytical skills and a deep understanding of network protocols and technologies. My ability to swiftly acquire new skills on the fly empowers me to troubleshoot, isolate, and resolve issues with efficiency and precision.<br/><small>-Josh Madrone</small>"
 feature_row       :
   - image_path    : /assets/images/resume.png
     alt           : "resume"
-    title         : "My Resume"
-    excerpt       : "View my resume and download a PDV version."
+    title         : "Résumé"
+    excerpt       : "View my work history and download a Résumé (PDF)."
     url           : "/cv/"
     btn_class     : "btn--primary"
-    btn_label     : "Download CV"
+    btn_label     : "Learn more"
   - image_path    : /assets/images/josh-crater-lake-square-300px.jpg
     alt           : "Josh at Crater Lake, OR"
     title         : "About Me"
