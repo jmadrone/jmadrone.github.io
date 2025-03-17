@@ -255,7 +255,7 @@ exclude:
    - _excluded/
    - .DS_Store
    - README
-   - bootstrap-resume
+   - bootstrap-resume/
 
 keep_files:
   - .git
