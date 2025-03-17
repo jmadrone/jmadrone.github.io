@@ -1,18 +1,20 @@
 ---
-title: "Malcolm"
+title: "CCA's Malcolm Marshal Madrone II"
 excerpt: "An Alapaha Blue-Blood Bulldog"
 gallery:
   - url: /assets/images/malcolm/malcolm1.jpg
     image_path: /assets/images/malcolm/malcolm1.jpg
-    alt: "Baby Malcolm is a new arrival to the family"
+    alt: "Baby Malcolm is a new arrival to the family logo"
+    title: "Baby Malcolm is a new arrival to the family"
   - url: /assets/images/malcolm/malcolm2.jpg
     image_path: assets/images/malcolm/malcolm2.jpg
-    alt: "Still a puppy"
+    alt: "Still a puppy photo"
+    title: "Still a puppy"
 ---
 
 {% include gallery caption="Malcolm as a puppy... what a handsome little guy." %}
 
-Meet Malcolm, the embodiment of loyalty and love in canine form. With his friendly demeanor and gentle nature, Malcolm warmly welcomes all who cross his path, showering them with affection and joy. Yet beneath his playful exterior lies a guardian's heart, always watchful and ready to defend those he holds dear against any potential danger. Malcolm's unwavering devotion and protective instinct make him not just a beloved companion, but a trusted protector, ensuring peace of mind for his cherished family.
+Meet **Malcolm**, the embodiment of loyalty and love in canine form. With his friendly demeanor and gentle nature, Malcolm warmly welcomes all who cross his path, showering them with affection and joy. Yet beneath his playful exterior lies a guardian's heart, always watchful and ready to defend those he holds dear against any potential danger. Malcolm's unwavering devotion and protective instinct make him not just a beloved companion, but a trusted protector, ensuring peace of mind for his cherished family.
 
 Born August 10, 2020, he just about three years old as of this writing. He is an [Alapaha Bulldog](#about-alapaha-bulldogs), a rare breed that I fell in love with many years ago, when the [first Malcolm](#the-first-malcolm) came into my life. He is such a loving and compassionate companion and a beloved member of our family. Super protective of his mother, my loving wife [Jade](/jade-madrone/), he loves to play in the snow, swim in the rivers, and romp around in the woods amongst the giant Redwood trees that we're so blessed to have all around us. Eager to make new friends, he is a giant teddy bear most of the time, while maintaining a vigilant state of readiness at all times ready to defend against any threat that presents itself, ready to give his own life if necessary.
 

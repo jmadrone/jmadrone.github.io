@@ -22,15 +22,15 @@
 # Site Settings
 title                     : "I'm Josh Madrone"
 title_separator           : "-"
-subtitle                  : "A Network Engineer and Cloud Architect"
+subtitle                  : &mytitle "A Network Engineer and Cloud Architect" # &mytitle is a YAML anchor
 name                      : &name "Josh Madrone" # &name is a YAML anchor which can be *referenced later
 logo                      : "/assets/images/logo.png" # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
-masthead_title            : "Josh Madrone" # overrides the website title displayed in the masthead, use " " for no title
+masthead_title            : *name # overrides the website title displayed in the masthead, use " " for no title
 email                     : josh@madrone.me
 #description               : >- &description # this means to ignore newlines until "baseurl:"
 #                            Josh Madrone is a network engineer, cloud architect, linux systems 
 #                            administrator, web developer and IT Guru
-description               : &description "Josh Madrone is a network engineer, cloud architect, linux systems administrator, web developer and IT Guru."
+description               : &description "Josh Madrone is a network engineer, cloud architect, Linux, macOS, and Windows systems administrator, web developer and IT Guru."
 repository                : "jmadrone/jmadrone.github.io"
 url                       : "https://jmadrone.github.io"  #the base hostname & protocol for your site, e.g. https://example.github.io
 baseurl                   : "" # the subpath of your site, e.g. /blog
@@ -125,7 +125,7 @@ author:
   links:
     - label               : "Website"
       icon                : "fas fa-fw fa-link"
-      url                 : "https://josh.madrone.me"
+      url                 : "https://joshmadrone.com"
     - label               : "Facebook"
       icon                : "fab fa-fw fa-facebook-square"
       url                 : "https://facebook.com/joshmadrone"
@@ -239,7 +239,7 @@ include:
    - _pets
    - _recipes
    - _docs
-   - bootstrap-resume
+   
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
@@ -255,6 +255,8 @@ exclude:
    - _excluded/
    - .DS_Store
    - README
+   - bootstrap-resume
+
 keep_files:
   - .git
 encoding                  : "utf-8"
